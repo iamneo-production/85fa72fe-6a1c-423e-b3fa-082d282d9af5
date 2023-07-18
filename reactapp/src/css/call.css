@@ -1,0 +1,100 @@
+@import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,500,300italic,500italic,700italic,900,300);
+
+#style-2::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(245, 245, 245, 1);
+  z-index: 999;
+}
+
+#style-2::-webkit-scrollbar {
+  width: 5px;
+  background-color: #ccc;
+}
+
+#style-2::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #cccccc;
+  z-index: 999;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.image-container {
+  padding: 20px;
+}
+
+.image-container img {
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  box-shadow: 0px 0px 10px;
+}
+
+.form-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 50%;
+}
+
+.user-details-form {
+  font-size: 12px;
+  margin-left: 20%;
+  border: black;
+  margin-top: 25px;
+}
+
+.user-details-form div {
+  margin-bottom: 10px;
+}
+
+input[type='text'],
+select,
+input[type='tel'],
+input[type='email'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 10px;
+  box-sizing: border-box;
+}
+
+input[type='submit'] {
+  width: 100%;
+  background-color: rgb(255, 166, 0);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: rgb(233, 77, 77);
+}
+
+.user-details-form {
+  font-size: 12px;
+}
+
+.user-details-form div {
+  margin-bottom: 10px;
+}
+
+span.user-details-country-placeholder {
+  color: #eaeaea;
+}
+.conselling
+{
+  margin-left: 10%;
+}

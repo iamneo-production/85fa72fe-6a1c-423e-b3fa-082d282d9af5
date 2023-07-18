@@ -1,0 +1,55 @@
+.logmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('https://res.cloudinary.com/dunzdwo0h/image/upload/v1688981009/bg_qg1uwn.jpg');
+    background-size: cover;
+  }
+  
+  .login {
+    display: flex;
+    margin-left: 5px;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+
+  .logbut {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #774f9a;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logbut:hover {
+    background-color: #613c77;
+  }
+  
+  .register-link {
+    text-decoration: none;
+    color: #007bff;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
